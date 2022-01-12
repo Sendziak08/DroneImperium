@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='1080' preserveAspectRatio='none' viewBox='0 0 2560 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1091%26quot%3b)' fill='none'%3e%3crect width='2560' height='1080' x='0' y='0' fill='rgba(64%2c 105%2c 147%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c515.689C145.106%2c534.966%2c283.354%2c711.006%2c411.708%2c640.631C536.634%2c572.135%2c491.346%2c375.138%2c513.136%2c234.342C529.246%2c130.246%2c543.558%2c28.084%2c522.481%2c-75.121C502.322%2c-173.83%2c462.622%2c-267.578%2c395.32%2c-342.547C328.763%2c-416.686%2c235.866%2c-453.439%2c145.393%2c-495.164C39.594%2c-543.957%2c-61.822%2c-611.322%2c-178.252%2c-607.07C-310.557%2c-602.239%2c-458.494%2c-572.405%2c-542.462%2c-470.046C-626.213%2c-367.951%2c-600.196%2c-218.939%2c-604.901%2c-86.972C-609.125%2c31.519%2c-613.599%2c149.97%2c-568.476%2c259.614C-522.223%2c372.005%2c-457.752%2c489.932%2c-346.94%2c539.848C-239.057%2c588.445%2c-117.293%2c500.107%2c0%2c515.689' fill='%232e4c6a'%3e%3c/path%3e%3cpath d='M2560 1960.784C2757.886 1964.864 2977.454 2095.56 3141.275 1984.482 3305.592 1873.067 3244.121 1610.3609999999999 3336.206 1434.481 3436.223 1243.45 3740.257 1127.962 3700.699 915.992 3660.538 700.79 3335.466 695.106 3171.2129999999997 550.381 3037.612 432.663 3000.956 209.539 2832.718 151.20600000000002 2663.837 92.64999999999998 2491.208 211.93200000000002 2317.583 254.40200000000004 2134.151 299.27099999999996 1908.7269999999999 265.803 1784.125 407.701 1659.522 549.6 1731.2759999999998 770.094 1701.06 956.503 1670.129 1147.321 1550.292 1330.825 1604.409 1516.404 1660.6950000000002 1709.424 1811.6190000000001 1876.0430000000001 1993.929 1960.8229999999999 2168.561 2042.0320000000002 2367.45 1956.8139999999999 2560 1960.784' fill='%235887b6'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1091'%3e%3crect width='2560' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+h1 {
+    font-size: 32px;
+    width: 270px;
+    height: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+span {
+    color: gray;
+}
+
+.profile {
+    width: 160px;
+    height: 160px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px gray;
+}
+
+section, header {
+    padding: 10px 60px 20px 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    margin-bottom: 10px;
+}
+
+.address-icon {
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    background-color: cornflowerblue;
+    padding: 8px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.intresting {
+
+    border: 0px;
+    padding: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.hobbies div {
+    margin-left: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.download-cv {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 10px cornflowerblue;
+}
+
+.download-cv:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.download-cv:focus {
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.download-cv:active {
+    text-decoration: underline;
+}
+
