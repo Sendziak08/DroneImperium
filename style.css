@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(241, 241, 241, 0.795);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    position: relative;
+    border-radius: 5px;
+    width: 20em;
+    height: 2em;
+}
+
+input:focus {
+    outline: none;
+}
+
+figure {
+    padding: 10px;
+    display: block;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: rgb(87, 87, 87);
+    display: flex;
+}
+
+.headerimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 8px;
+
+}
+
+.headersearch {
+    margin: auto;
+}
+
+.products {
+    display: flex;
+}
